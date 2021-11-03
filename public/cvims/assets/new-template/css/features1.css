@@ -1,0 +1,199 @@
+/* Features
+--------------------------------*/
+/* .tabs {
+	padding-top: 6.5rem;
+	padding-bottom: 4.25rem;
+	background-color: #2f2c3d;
+} */
+
+.tabs h2 {
+  margin-bottom: 1.125rem;
+  text-align: center;
+}
+
+.tabs .p-heading {
+  margin-bottom: 3.125rem;
+}
+
+.tabs .nav-tabs {
+  margin-right: auto;
+  margin-bottom: 2.5rem;
+  margin-left: auto;
+  justify-content: center;
+  border-bottom: none;
+}
+
+.tabs .nav-link {
+  margin-bottom: 1rem;
+  padding: 0.5rem 1.375rem 0.25rem 1.375rem;
+  border: none;
+  border-bottom: 0.1875rem solid #dad8db;
+  border-radius: 0;
+  color: #dad8db;
+  font: 700 1rem/1.75rem "Montserrat", sans-serif;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.tabs .nav-link.active,
+.tabs .nav-link:hover {
+  border-bottom: 0.1875rem solid #4caf50;
+  background-color: transparent;
+  color: #4caf50;
+}
+
+.tabs .nav-link .fa {
+  margin-right: 0.375rem;
+  font-size: 1rem;
+}
+
+.tabs .tab-content {
+  width: 100%; /* for proper display in IE11 */
+}
+
+.tabs .card {
+  border: none;
+  background: transparent;
+}
+
+.tabs .card-body {
+  padding: 1rem 0 1.25rem 0;
+}
+
+.tabs .card-title {
+  margin-bottom: 0.5rem;
+}
+
+.tabs .card .card-icon {
+  display: inline-block;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  background-color: #4caf50;
+  text-align: center;
+  vertical-align: top;
+}
+
+.tabs .card .card-icon .fa,
+.tabs .card .card-icon .fas {
+  color: #fff;
+  font-size: 1.75rem;
+  line-height: 3.5rem;
+}
+
+.tabs #tab-1 .card.left-pane .text-wrapper {
+  display: inline-block;
+  width: 75%;
+}
+
+.tabs #tab-1 .card.left-pane .card-icon {
+  float: left;
+  margin-right: 1rem;
+}
+
+.tabs #tab-1 img {
+  display: block;
+  margin: 2rem auto 3rem auto;
+}
+
+.tabs #tab-1 .card.right-pane .text-wrapper {
+  display: inline-block;
+  width: 75%;
+}
+
+.tabs #tab-1 .card.right-pane .card-icon {
+  margin-right: 1rem;
+}
+
+.tabs #tab-2 img {
+  display: block;
+  margin: 0 auto 2rem auto;
+}
+
+.tabs #tab-2 .text-area {
+  margin-top: 1.5rem;
+}
+
+.tabs #tab-2 h3 {
+  margin-bottom: 0.75rem;
+}
+
+.tabs #tab-2 .icon-cards-area {
+  margin-top: 2.5rem;
+}
+
+.tabs #tab-2 .icon-cards-area .card {
+  width: 100%; /* for proper display in IE11 */
+}
+
+.tabs #tab-3 .icon-cards-area .card {
+  width: 100%; /* for proper display in IE11 */
+}
+
+.tabs #tab-3 .text-area {
+  margin-top: 0.75rem;
+  margin-bottom: 4rem;
+}
+
+.tabs #tab-3 h3 {
+  margin-bottom: 0.75rem;
+}
+
+.tabs #tab-3 img {
+  margin: 0 auto 3rem auto;
+}
+
+.tabs .card .card-icon {
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+.tabs .card .card-icon .fa,
+.tabs .card .card-icon .fas {
+  font-size: 2.25rem;
+  line-height: 4.5rem;
+}
+
+.tabs #tab-1 .card.left-pane .text-wrapper {
+  width: 85%;
+}
+
+.tabs #tab-2 img {
+  margin-bottom: 0;
+}
+
+.tabs #tab-2 .text-area {
+  margin-top: 0;
+}
+
+.tabs #tab-2 .icon-cards-area .card {
+  display: inline-block;
+  width: 44%;
+  margin-right: 2.5rem;
+  vertical-align: top;
+}
+
+.tabs #tab-2 div.card:nth-child(2n + 2) {
+  margin-right: 0;
+}
+
+.tabs #tab-3 .text-area {
+  margin-bottom: 0;
+}
+
+.tabs #tab-3 .icon-cards-area .card {
+  display: inline-block;
+  width: 44%;
+  margin-right: 2.5rem;
+  vertical-align: top;
+}
+
+.tabs #tab-3 div.card:nth-child(2n + 2) {
+  margin-right: 0;
+}
+
+.tabs #tab-3 img {
+  margin-bottom: 0;
+}
+
+

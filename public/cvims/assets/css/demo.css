@@ -1,0 +1,219 @@
+@media (min-width: 992px){
+    .typo-line{
+        padding-left: 140px;
+        margin-bottom: 40px;
+        position: relative;
+    }
+
+    .typo-line .category{
+        transform: translateY(-50%);
+        top: 50%;
+        left: 0px;
+        position: absolute;
+    }
+}
+.pagination > li > a:hover, .pagination > li > a:focus, .pagination > li > a:active, .pagination > li.active > a, .pagination > li.active > span, .pagination > li.active > a:hover, .pagination > li.active > span:hover, .pagination > li.active > a:focus, .pagination > li.active > span:focus {
+    background-color: #bfbfbf !important;
+    border-color: #66615B !important;
+    color: #FFFFFF !important;
+}
+
+.pagination > li > a, .pagination > li > span {
+    border: 0px solid #636363 !important;
+    border-radius: 18px !important;
+    color: #8a8a8a !important;
+    height: 26px !important;
+    padding: 2px !important;
+
+}
+.tbl-program{
+    text-align: center;
+}
+
+.cstm-avtr{
+    margin-top: 15%;
+    padding-bottom: 10%;
+}
+
+.tbl-program-tr-color{
+    background-color: #ffbb61;
+}
+
+.btn{
+    border-radius: 2px !important;
+}
+
+.label{
+    border-radius: 2px !important;
+}
+
+.swal2-popup {
+    border-radius: 2px !important;
+}
+/* sidebar divider */
+.divider {
+    margin-right: 15px !important;
+    margin-left: 15px !important;
+    height: 1px !important;
+    display:block !important; /* for use on default inline elements like span */
+    overflow: hidden !important;
+    }
+.card{
+        border-radius: 3px !important;
+    }
+.table{
+        border-radius: 3px !important;
+    }
+
+.cstmSmall{
+    font-size: 100% !important;
+}
+.cstmButtonBackground{
+    width: 5px;
+    cursor: pointer;
+}
+.cstmButtonBackground:hover{
+    -webkit-filter: grayscale(100%);
+    /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(100%);
+    /* FF 35+ */
+}
+.cstmNoStyle li{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+.cstmUl{
+    padding-left: 20px !important;
+}
+.cstmNoStyle li {
+    padding-bottom: 5px;
+}
+.cstmP{
+    color: #66615b !important;
+    font-size: 13px !important;
+}
+.cstmRoundedBtn{
+    border-radius: 64px !important;
+    height: 50px !important;
+    font-size: 33px !important;
+    padding-top: 3px !important;
+    padding-bottom: 0px !important;
+    padding-left: 9px !important;
+    padding-right: 6px !important;
+    -webkit-border-radius: 64px !important;
+    -moz-border-radius: 64px !important;
+    -ms-border-radius: 64px !important;
+    -o-border-radius: 64px !important;
+}
+.card-user .image img {
+    object-fit: cover !important;
+    background-position: 50% 50% !important;
+}
+.card-user .cstmAvatar {
+    width: 150px !important;
+    height: 150px !important;
+}
+.sidebar .sidebar-wrapper>.nav .cstmAlign,
+.off-canvas-sidebar .sidebar-wrapper>.nav .cstmAlign {
+    line-height: 20px !important;
+}
+.pointer{
+    cursor:pointer !important;
+}
+.ps .ps__rail-x:hover,
+.ps .ps__rail-y:hover,
+.ps .ps__rail-x:focus,
+.ps .ps__rail-y:focus,
+.ps .ps__rail-x.ps--clicking,
+.ps .ps__rail-y.ps--clicking {
+    background-color: transparent !important;
+    opacity: 0.9;
+}
+.cstmSpacing{
+    height:10px !important;
+}
+.dropdown-menu > li:last-child > a {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.dropdown-menu>li:last-child>a {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.sidebar[data-background-color="brown"]:after,
+.sidebar[data-background-color="brown"]:before,
+.off-canvas-sidebar[data-background-color="brown"]:after,
+.off-canvas-sidebar[data-background-color="brown"]:before {
+    background-color: #364150 !important;
+}
+.cstm-round{
+    background-color: #364150 !important;
+    border-radius: 20px !important;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    -ms-border-radius: 20px !important;
+    -o-border-radius: 20px !important;
+}
+.error{
+    color: #EB5E28 !important;
+    border-color: #EB5E28 !important;
+}
+.icon-section {
+	margin: 0 0 3em;
+	clear: both;
+	overflow: hidden;
+}
+.icon-container {
+	width: 240px;
+	padding: .7em 0;
+	float: left;
+	position: relative;
+	text-align: left;
+}
+.icon-container [class^="ti-"],
+.icon-container [class*=" ti-"] {
+	color: #000;
+	position: absolute;
+	margin-top: 3px;
+	transition: .3s;
+}
+.icon-container:hover [class^="ti-"],
+.icon-container:hover [class*=" ti-"] {
+	font-size: 2.2em;
+	margin-top: -5px;
+}
+.icon-container:hover .icon-name {
+	color: #000;
+}
+.icon-name {
+	color: #aaa;
+	margin-left: 35px;
+	font-size: .8em;
+	transition: .3s;
+}
+.icon-container:hover .icon-name {
+	margin-left: 45px;
+}
+
+.places-buttons .btn{
+    margin-bottom: 30px
+}
+.sidebar .nav > li.active-pro{
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+}
+.sidebar .nav > li.active-pro a{
+    background: rgba(255, 255, 255, 0.14);
+    opacity: 1;
+    color: #FFFFFF;
+}
+
+.table-upgrade td:nth-child(2),
+.table-upgrade td:nth-child(3){
+    text-align: center;
+}
+body.nude{
+    background-color: #f4f3ef;
+}

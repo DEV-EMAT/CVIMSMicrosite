@@ -1,0 +1,107 @@
+#features {
+  background: url("../img/background/2.jpg") center top no-repeat fixed;
+  background-size: cover;
+  padding: 60px 0 60px 0;
+  position: relative;
+}
+
+#features::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.88);
+  z-index: 9;
+}
+
+#features .container {
+  position: relative;
+  z-index: 10;
+}
+
+#features .counters span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  display: block;
+  color: #4caf50;
+}
+
+#features .counters p {
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #111;
+}
+
+#features .features-img {
+  text-align: center;
+  padding-top: 30px;
+}
+
+#features .btn-solid-lg .fab {
+  margin-right: 0.5rem;
+  font-size: 1.25rem;
+  line-height: 0;
+  vertical-align: top;
+}
+
+.btn-solid-lg {
+  display: inline-block;
+  padding: 1.375rem 2.625rem 1.375rem 2.625rem;
+  border: 0.125rem solid #333;
+  border-radius: 2rem;
+  background-color: #333;
+  color: #fff;
+  font: 700 0.75rem/0 "Montserrat", sans-serif;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.btn-solid-lg:hover {
+  background-color: transparent;
+  color: #333;
+  text-decoration: none;
+}
+
+.btn-solid-lg .fa {
+  margin-right: 0.5rem;
+  font-size: 1.25rem;
+  line-height: 0;
+  vertical-align: top;
+}
+
+.btn-solid-lg .fa.fa-google-play {
+  font-size: 1rem;
+}
+
+.section-small-padding {
+  padding: 2.5rem 1.25rem;
+}
+
+.background-dark {
+  background-color: #333;
+}
+
+section, header {
+    position: relative;
+}
+.line {
+  clear: left;
+}
+
+.scren-owl img:not(.image-header) {
+  width: 55% !important;
+}
+
+.scren-owl img {
+  width: 80% !important;
+  margin: 0 auto;
+}
+
+#features .download {
+  border-radius: 30px !important;
+}
