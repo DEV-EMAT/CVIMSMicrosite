@@ -231,6 +231,9 @@ Route::group([
         });
     });
 
+
+
+
     //CovidVaccine
     Route::group([
         'namespace' => 'Covid19Vaccine'
@@ -246,7 +249,9 @@ Route::group([
 
             Route::prefix('cabvax')->group(function () {
                 //Get all my company
-
+                Route::get('lol', function () {
+                    return [1, 2, 3];
+                });
                 Route::post('add-prereg', 'PatientEncodingController@storePreRegistered');
                 Route::put('update-prereg', 'PatientEncodingController@updatePreRegistered');
                 // Patient Verification Routes
